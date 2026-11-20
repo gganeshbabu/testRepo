@@ -10,4 +10,14 @@ def createEmpployee():
     return employee
 
 
-print(createEmpployee())
+# print(createEmpployee())
+
+
+def greetEmployee(employee):
+    print(
+        f"Hello {employee['name']}, you are {employee['age']} years old and work as a {employee['position']}.")
+
+
+crtEmp = createEmpployee()
+
+greetEmployee(crtEmp)
