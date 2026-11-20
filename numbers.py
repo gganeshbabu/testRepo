@@ -1,2 +1,2 @@
-number = 100
+number = 200
 print(number)
