@@ -20,4 +20,14 @@ def greetEmployee(employee):
 
 crtEmp = createEmpployee()
 
-greetEmployee(crtEmp)
+greet = greetEmployee(crtEmp)
+
+
+# new feature
+
+def printEmpInfo(employee):
+    print(
+        f"Employee Information:\nName: {employee['name']}\nAge: {employee['age']}\nPosition: {employee['position']}")
+
+
+print(printEmpInfo(crtEmp))
